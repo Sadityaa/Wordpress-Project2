@@ -1,0 +1,32 @@
+/*
+ Theme Name:  Project Child Theme
+ Theme URI:    https://divilife.com
+ Description:  Project theme based on Divi
+ Author:       ACS Solutions
+ Template:     Divi
+ Version:      1.0.0
+ Text Domain: divi-child
+*/
+body{font-size:16px; color:#000;}
+h1{font-size:3rem;}
+h2{font-size:2.5rem}
+h3{font-size:2rem}
+h4{font-size:1.5rem}
+h5{font-size:1.2rem}
+h6{font-size:1rem}
+p{font-size:1rem}
+a{font-size:1rem}
+
+
+.gallery_main{display: flex;flex-wrap: wrap;}
+.gallery_main > div{width: 33.33%;padding: 0 15px;}
+.gallery_main > div p{margin: 0;padding: 0;}
+.gallery_main > div img{height: 230px;}
+.filter_btns ul{display: flex;list-style: none;padding: 0;margin: 0;}
+.filter_btns ul li{padding: 0 10px;}
+.filter_btns ul li a{margin: 0 2px;border: solid 1px #0e5589;background-color: #0e5589;color: #fff;padding: 5px;border-radius: 6px;cursor: pointer;}
+.filter_btns ul li a:hover{background-color: transparent;color: #0e5589;}
+
+.meet-banner-sec h1{color:#000 !important;}
+.meet-banner-sec span{color:#000 !important;}
+.meet-banner-sec p{color:#000 !important;}
